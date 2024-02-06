@@ -1,3 +1,3 @@
 export default {
-  base: "KWS2100-course-04",
+  base: "KWS2100-course-04/",
 };
