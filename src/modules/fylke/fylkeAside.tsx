@@ -12,7 +12,7 @@ interface FylkeProperties {
 }
 
 interface Stedsnavn {
-  sprak: string;
+  sprak: "nor" | "sme" | "sma" | "smj" | "fkv";
   navn: string;
 }
 
