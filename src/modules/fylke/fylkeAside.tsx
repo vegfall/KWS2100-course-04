@@ -28,7 +28,7 @@ function useFylkeFeatures() {
   const { map, layers } = useContext(MapContext);
 
   const layer = layers.find(
-    (l) => l.getClassName() === "fylke",
+    (l) => l.getClassName() === "fylker",
   ) as FylkeVectorLayer;
 
   const [features, setFeatures] = useState<FylkeFeature[]>();
